@@ -6,7 +6,7 @@ https://developer.android.com/ndk/downloads
 Set `$NDK_HOME` to the NDK directory (`/path/to/android-ndk-r28`).  
 Set `$NDK_PROJECT_PATH` to this folder (`/path/to/hello-android`).  
 
-Run `ndk-build`. It will create executables in `hello/libs/` for each architecture defined in `Application.mk`:`APP_ABI`.  
+Run `ndk-build`. It will create executables in `hello-android/libs/` for each architecture defined in `Application.mk`:`APP_ABI`.  
 
 ```sh
 git clone https://github.com/username/hello-android
